@@ -26,6 +26,7 @@
 
 body {
   background: var(--mobile) no-repeat top center/cover;
+  height: 100vh;
 }
 
 body * {
@@ -74,11 +75,16 @@ body * {
   left: 0;
   z-index: 1;
   transform: translateY(-50%);
+
+  animation: slide-back 0.4s;
 }
 
 .light #switch button {
-  right: 0;
-  left: initial;
+  animation: slide-in 0.4s forwards;
+}
+
+#switch button:hover {
+  outline: 8px solid var(--highlight-color);
 }
 
 #switch span {
@@ -148,4 +154,32 @@ footer {
 
 footer a {
   text-decoration: none;
+}
+
+@media (min-width: 700px) {
+  :root {
+    --mobile: url(./image/dark-desktop.jpg);
+  }
+
+  .light {
+    --mobile: url(./image/light-desktop.jpg);
+  }
+}
+
+@keyframes slide-in {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+
+@keyframes slide-back {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
+  }
 }
