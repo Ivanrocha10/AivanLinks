@@ -32,4 +32,3 @@ Se você tiver algum feedback, por favor enviar para ivan.rocha.0987@gmail.com
 ## Autor
 
 - [@IvanRocha](https://www.github.com/ivanrocha10)
-#
