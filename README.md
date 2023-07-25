@@ -7,7 +7,7 @@ O Projeto AivanLinks, tem como objetivo ajudar o cliente a se achar nas redes so
 
 ## Demonstração
 
-![App Screenshot](./image/capa1.png)
+![App Screenshot](./image/AivanLinks.gif)
 
 
 ## 💻 Tech Stack:

@@ -1,21 +1,21 @@
 :root {
   --text-color: white;
-  --mobile: url(./image/dark-mobile.jpg);
+  --mobile: url(../image/dark-mobile.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.02);
   --surface-color-hover: rgba(255, 255, 255, 0.05);
   --highlight-color: rgba(255, 255, 255, 0.2);
-  --switch-url: url(./image/moon-stars.svg);
+  --switch-url: url(../image/moon-stars.svg);
 }
 
 .light {
   --text-color: black;
-  --mobile: url(./image/light-mobile.jpg);
+  --mobile: url(../image/light-mobile.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.11);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(0, 0, 0, 0.1);
-  --switch-url: url(./image/sun.svg);
+  --switch-url: url(../image/sun.svg);
 }
 
 * {
@@ -158,11 +158,11 @@ footer a {
 
 @media (min-width: 700px) {
   :root {
-    --mobile: url(./image/dark-desktop.jpg);
+    --mobile: url(../image/dark-desktop.jpg);
   }
 
   .light {
-    --mobile: url(./image/light-desktop.jpg);
+    --mobile: url(../image/light-desktop.jpg);
   }
 }
 
