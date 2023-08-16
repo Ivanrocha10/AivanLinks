@@ -10,10 +10,4 @@ function toggleMode() {
   } else {
     image.setAttribute('src', './image/Avatar-light.png')
   }
-
-  if (html.classList.contains('light')) {
-    image.setAttribute('src', '../image/Avatar.png')
-  } else {
-    image.setAttribute('src', '../image/Avatar-light.png')
-  }
 }
