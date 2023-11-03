@@ -27,11 +27,20 @@
 body {
   background: var(--mobile) no-repeat top center/cover;
   height: 100vh;
+  scrollbar-width: none;
 }
 
 body * {
   font-family: 'Inter', sans-serif;
   color: var(--text-color);
+}
+
+body::-webkit-scrollbar {
+  width: 0.1em;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: transparent;
 }
 
 #conteiner {
